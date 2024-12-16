@@ -1,0 +1,38 @@
+// Defining font styles
+
+.title{
+  color: $blue-dark;
+}
+
+.price{
+  color: $cyan-dark;
+}
+
+.display{
+  font-family: $fraunces;
+  font-size: $fs-32;
+  font-weight: $fw-700;
+  line-height: 32;
+}
+
+.body{
+  font-family: $montserrat;
+  font-size: $fs-14;
+  font-weight: fw-500;
+  line-height: 23;
+}
+
+.button-text{
+  font-family: $montserrat;
+  font-size: $fs-14;
+  font-weight: fw-700;
+  line-height: auto;
+}
+
+.overline{
+  font-family: $montserrat;
+  font-size: $fs-12;
+  font-weight: fw-500;
+  line-height: auto;
+  letter-spacing: 5px;
+}

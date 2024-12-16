@@ -13,13 +13,13 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Dark cyan: hsl(158, 36%, 37%)
-- Cream: hsl(30, 38%, 92%)
+- Dark cyan: #3c8067
+- Cream: #f2ebe3
 
 ### Neutral
 
-- Very dark blue: hsl(212, 21%, 14%)
-- Dark grayish blue: hsl(228, 12%, 48%)
+- Very dark blue: #1c232b
+- Dark grayish blue: #6c7289
 - White: hsl(0, 0%, 100%)
 
 ## Typography
