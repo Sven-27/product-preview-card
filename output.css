@@ -1,6 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-body p {
-  color: #ff0000;
+.title {
+  color: #1c232b;
+}
+
+.price {
+  color: #3D8168;
+}
+
+.display {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 32;
+}
+
+.body {
+  font-family: "Montserrat", serif;
+  font-size: 0.875rem;
+  font-weight: fw-500;
+  line-height: 23;
+}
+
+.button-text {
+  font-family: "Montserrat", serif;
+  font-size: 0.875rem;
+  font-weight: fw-700;
+  line-height: auto;
+}
+
+.overline {
+  font-family: "Montserrat", serif;
+  font-size: 0.75rem;
+  font-weight: fw-500;
+  line-height: auto;
+  letter-spacing: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #F2EAE2;
+  min-height: 100vh;
+}
+body .card .img-container {
+  background: url("../images/image-product-mobile.jpg") no-repeat center;
+  background-size: 100%;
+  aspect-ratio: 1.5/1;
 }
 
 /*# sourceMappingURL=output.css.map */

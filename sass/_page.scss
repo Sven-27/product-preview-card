@@ -1,6 +1,24 @@
 // Style of the page
+
+// Simple reset 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  p{
-    color: $red;
+  display: grid;
+  place-items: center;
+  background: $cream;
+  min-height: 100vh;
+
+  .card{
+
+    .img-container{
+      background: url("../images/image-product-mobile.jpg") no-repeat center;
+      background-size: 100%;
+      aspect-ratio: 1.5/1;
+    }
   }
 }
