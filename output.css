@@ -30,6 +30,8 @@
   line-height: auto;
   letter-spacing: 5px;
   text-transform: uppercase;
+  color: #6c7289;
+  padding-bottom: 1rem;
 }
 
 .price {
@@ -38,6 +40,7 @@
   font-weight: 700;
   line-height: 32px;
   color: #3D8168;
+  margin-right: 1rem;
 }
 
 .line-through {
@@ -56,12 +59,28 @@ body {
   background: #F2EAE2;
   min-height: 100vh;
 }
+body .card {
+  width: 343px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
 body .card .img-container {
   background: url("../images/image-product-mobile.jpg") no-repeat center;
   background-size: 100%;
   aspect-ratio: 1.5/1;
 }
-body .card button {
+body .card main {
+  padding: 2rem;
+}
+body .card main p.body {
+  padding: 1rem 0 2rem;
+}
+body .card main .price-wrapper {
+  display: flex;
+  align-items: center;
+}
+body .card main button {
   color: #fff;
   border: none;
   outline: none;
@@ -72,8 +91,9 @@ body .card button {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
 }
-body .card button img {
+body .card main button img {
   margin-right: 0.7rem;
 }
 

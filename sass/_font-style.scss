@@ -31,6 +31,8 @@
   line-height: auto;
   letter-spacing: 5px;
   text-transform: uppercase;
+  color: $gray-blue-dark;
+  padding-bottom: 1rem;
 }
 
 .price {
@@ -39,6 +41,7 @@
   font-weight: $fw-700;
   line-height: 32px;
   color: $cyan-dark;
+  margin-right: 1rem;
 }
 
 .line-through{
