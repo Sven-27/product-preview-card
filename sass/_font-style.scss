@@ -1,31 +1,26 @@
 // Defining font styles
 
-.title{
-  color: $blue-dark;
-}
-
-.price{
-  color: $cyan-dark;
-}
-
 .display{
   font-family: $fraunces;
   font-size: $fs-32;
   font-weight: $fw-700;
-  line-height: 32;
+  line-height: 32px;
+  color: $blue-dark;
+  text-transform: capitalize;
 }
 
 .body{
   font-family: $montserrat;
   font-size: $fs-14;
   font-weight: fw-500;
-  line-height: 23;
+  line-height: 23px;
+  color: $gray-blue-dark;
 }
 
 .button-text{
   font-family: $montserrat;
   font-size: $fs-14;
-  font-weight: fw-700;
+  font-weight: $fw-700;
   line-height: auto;
 }
 
@@ -35,4 +30,18 @@
   font-weight: fw-500;
   line-height: auto;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
+
+.price {
+  font-family: $fraunces;
+  font-size: $fs-32;
+  font-weight: $fw-700;
+  line-height: 32px;
+  color: $cyan-dark;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
