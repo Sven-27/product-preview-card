@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+// Styles for the page
 body{
   display: grid;
   place-items: center;
@@ -19,6 +20,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
 
+    // Insert image to the img-container div
     .img-container{
       background: url("../images/image-product-mobile.jpg") no-repeat center;
       background-size: 100%;
@@ -29,14 +31,12 @@ body{
       padding: 2rem;
 
       p.body{
-        padding: 1rem 0 2rem;
+        padding: 1.5rem 0;
       }
 
       .price-wrapper{
         display: flex;
         align-items: center;
-
-        
       }
 
       button{
@@ -50,10 +50,35 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
+        transition: .2s ease-in-out;
 
         img{
           margin-right: .7rem;
+        }
+
+        // setting active state.
+        &:hover, &:focus, &:active{
+          background: $cyan-hover;
+        }
+      }
+    }
+
+    // Styles for desktop screens
+    @media only screen and (min-width: 1440px){
+      &{
+        display: flex;
+        width: 600px;
+
+        .img-container {
+          background: url("../images/image-product-desktop.jpg") no-repeat;
+          background-size: contain;
+          width: 50%;
+          aspect-ratio: unset;
+          }
+
+        main{
+          width: 50%;
         }
       }
     }

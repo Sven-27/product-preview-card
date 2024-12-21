@@ -2,8 +2,9 @@
 .display {
   font-family: "Fraunces", serif;
   font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 2rem;
   color: #1c232b;
   text-transform: capitalize;
 }
@@ -33,12 +34,17 @@
   color: #6c7289;
   padding-bottom: 1rem;
 }
+@media only screen and (min-width: 1440px) {
+  .overline {
+    padding-bottom: 1.5rem;
+  }
+}
 
 .price {
   font-family: "Fraunces", serif;
   font-size: 2rem;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 2rem;
   color: #3D8168;
   margin-right: 1rem;
 }
@@ -74,7 +80,7 @@ body .card main {
   padding: 2rem;
 }
 body .card main p.body {
-  padding: 1rem 0 2rem;
+  padding: 1.5rem 0;
 }
 body .card main .price-wrapper {
   display: flex;
@@ -91,10 +97,29 @@ body .card main button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  transition: 0.2s ease-in-out;
 }
 body .card main button img {
   margin-right: 0.7rem;
+}
+body .card main button:hover, body .card main button:focus, body .card main button:active {
+  background: #1A4032;
+}
+@media only screen and (min-width: 1440px) {
+  body .card {
+    display: flex;
+    width: 600px;
+  }
+  body .card .img-container {
+    background: url("../images/image-product-desktop.jpg") no-repeat;
+    background-size: contain;
+    width: 50%;
+    aspect-ratio: unset;
+  }
+  body .card main {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
